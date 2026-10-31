@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Drive Full Path",
+  "version": "1",
+  "description": "Shows the full path of the open Google Drive folder in a thin bar at the top, instead of Drive's \"…\". By Mantra Productions.",
+  "author": "Mantra Productions",
+  "homepage_url": "https://mantradrivepath.pages.dev",
+  "icons": { "48": "icons/icon-48.png", "96": "icons/icon-96.png", "128": "icons/icon-128.png" },
+  "content_scripts": [
+    { "matches": ["https://drive.google.com/*"], "js": ["content.js"], "run_at": "document_idle" }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "drive-full-path@mantra-productions",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  }
+}

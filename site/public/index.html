@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drive Full Path</title>
+<meta name="description" content="A free Firefox extension: the full path of the open Google Drive folder, in a thin bar at the top, instead of Drive's three dots.">
+<meta property="og:title" content="Drive Full Path, for Firefox">
+<meta property="og:description" content="See where you are in Google Drive: the whole folder path, always, at the top of the window.">
+<meta property="og:image" content="https://mantradrivepath.pages.dev/shot-bar.png">
+<link rel="icon" href="icon-512.png">
+<style>
+  :root {
+    --ground: #15171a; --raised: #1f2328; --line: #2c323a; --text: #e8eaed; --dim: #9aa0a6;
+    --amber: #e8a64b; --amber-ink: #1a1408; --green: #34d399;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--text);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 56px 16px 40px; }
+  header { display: flex; gap: 20px; align-items: center; }
+  header img { width: 84px; height: 84px; flex: none; }
+  h1 { margin: 0; font-size: 40px; line-height: 1.1; letter-spacing: -0.5px; }
+  .by { color: var(--dim); font-size: 15px; margin-top: 4px; }
+  .lead { font-size: 21px; margin: 32px 0 8px; max-width: 760px; }
+  .shot { margin: 28px 0 10px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #000; }
+  .shot img { display: block; width: 100%; height: auto; }
+  .caption { color: var(--dim); font-size: 14px; margin: 0 0 32px; }
+  .caption b { color: var(--text); font-weight: 600; }
+  .actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin: 8px 0 44px; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 12px;
+         background: var(--amber); color: var(--amber-ink); font-weight: 700; text-decoration: none; font-size: 17px; }
+  .btn:hover { filter: brightness(1.06); }
+  .quiet { color: var(--amber); text-decoration: none; font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 44px; }
+  .card { background: var(--raised); border: 1px solid var(--line); border-radius: 16px; padding: 20px 20px 18px; }
+  .card h3 { margin: 0 0 6px; font-size: 18px; }
+  .card p { margin: 0; color: var(--dim); font-size: 15px; }
+  h2 { font-size: 24px; margin: 0 0 14px; }
+  ol { padding-left: 22px; margin: 0 0 44px; }
+  ol li { margin: 6px 0; }
+  code { background: var(--raised); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; font-size: 15px; }
+  footer { border-top: 1px solid var(--line); padding-top: 18px; color: var(--dim); font-size: 14px;
+           display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  footer a { color: var(--dim); }
+  @media (max-width: 560px) {
+    main { padding-top: 32px; } h1 { font-size: 30px; } header img { width: 64px; height: 64px; } .lead { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon-512.png" alt="">
+    <div>
+      <h1>Drive Full Path</h1>
+      <div class="by">A free Firefox extension by Mantra Productions</div>
+    </div>
+  </header>
+
+  <p class="lead">Google Drive hides the middle of a deep folder's path behind three dots. Drive Full Path writes the
+    whole path in a thin bar at the top of the window, so you always know where you are.</p>
+
+  <div class="shot"><img src="shot-bar.png" alt="Google Drive with a thin bar on top reading Projects › 2026 › Client A › Video Ads › Final › V3, above Drive's own Shared with me › … › Final › V3" width="1130" height="135"></div>
+  <p class="caption">Top line: <b>Drive Full Path</b>. Below it: what Drive shows on its own.</p>
+
+  <div class="actions">
+    <a class="btn" href="https://addons.mozilla.org/firefox/addon/drive-full-path/" data-dl-app="drivepath" target="_blank" rel="noopener">Add to Firefox</a>
+    <a class="quiet" href="https://addons.mozilla.org/firefox/addon/drive-full-path/" target="_blank" rel="noopener">on Firefox Add-ons ›</a>
+  </div>
+
+  <div class="grid">
+    <div class="card"><h3>Every folder, every time</h3><p>Open a folder and its full path is there within a second, from the first folder you can see to the one you are in.</p></div>
+    <div class="card"><h3>Small and out of the way</h3><p>One line of small letters at the very top. Drive works exactly as before underneath.</p></div>
+    <div class="card"><h3>Click to copy</h3><p>A click on the bar copies the path, ready to paste into a message or a note.</p></div>
+    <div class="card"><h3>Nothing leaves your browser</h3><p>No account, no tracking, no network requests. It reads the path from the page you already have open.</p></div>
+  </div>
+
+  <h2>How it works</h2>
+  <ol>
+    <li>Install it from Firefox Add-ons.</li>
+    <li>Open any folder in <code>drive.google.com</code>.</li>
+    <li>The bar appears at the top with the whole path. Move to another folder and it follows.</li>
+  </ol>
+
+  <footer>
+    <span>© 2026 Mantra Productions · Marko Bosko · <a href="https://markobosko.pages.dev/#/kod">more software</a></span>
+    <p data-visits-box hidden style="margin:0">Visits: <span data-visits="drivepath"></span></p>
+  </footer>
+</main>
+<script src="https://mantra-downloads.marko-bosko-925.workers.dev/counter.js" defer></script>
+<script src="https://mantra-visits.marko-bosko-925.workers.dev/counter.js" defer></script>
+<script src="https://speechifykeys.pages.dev/speechify-keys.js" defer></script>
+</body>
+</html>
