@@ -12,7 +12,10 @@ his Drive, account u/1): FINAL → 01 Raw (hidden in the menu) → LongevityStor
 crumb): each went there without a page reload and the bar followed every move; the tab was left on FINAL. **Published:** Marko
 uploaded version 2 to addons.mozilla.org and tried it himself the same day: *"It works fantastic"* (31.10.2026). The public
 AMO API still answered "Authentication credentials were not provided" for the slug at that moment: check the public page
-and its "Add to Firefox" link at the next session.
+and its "Add to Firefox" link at the next session. On Developer Hub (18:08–18:10) version 2 is Awaiting Review with its
+Version Notes (pasted by Macro Recorder; AMO pages refuse WebDriver BiDi, "System access is required") and Notes for
+Reviewers (why synthetic mouse events, no permissions or network, how to test); Marko pressed Save. The promo page says
+"version 2" and has the "Click to travel" card.
 
 
 State on 31.10.2026: **version 1 built** (`tools/build.sh` → build/drive-full-path-1.zip, 15 KB). The script was tested
