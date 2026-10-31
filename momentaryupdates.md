@@ -16,3 +16,5 @@
 > Website is added to PartnersNet Amazon.Germany. Please continue with affiliated links.
 
 - mantradrivepath.pages.dev registered in PartnerNet by Marko (31.10.2026): the affiliate links may go live.
+
+> Just choose any BenQ, it's okay. Whatever is Amazon choice for photographers and videos. Doesn't matter which one I have.
