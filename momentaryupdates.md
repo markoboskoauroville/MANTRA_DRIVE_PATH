@@ -12,3 +12,7 @@
 > Please, for any product you choose for my affiliate links, if it has Amazon Choice badge, please add it also to my website. So it's clear before user click it knows that it's Amazon Choice.
 
 - Amazon's Choice badge shown on every chosen product that has it (checked on its Amazon page). **Status:** building
+
+> Website is added to PartnersNet Amazon.Germany. Please continue with affiliated links.
+
+- mantradrivepath.pages.dev registered in PartnerNet by Marko (31.10.2026): the affiliate links may go live.
