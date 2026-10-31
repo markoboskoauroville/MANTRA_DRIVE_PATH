@@ -30,3 +30,7 @@
 > It works fantastic, it's a nice update. Our update is published on the Firefox database.
 
 - Version 2 tried by Marko and published on addons.mozilla.org (31.10.2026). **Status:** done
+
+> Please fill in the Release Notes. They are open. Add them on Developer Hub.
+
+- Version 2's notes written into Developer Hub → Manage Version 2 → Version Notes (pasted through Macro Recorder; AMO refuses remote control). Marko presses Save Changes. **Status:** done (18:08)
