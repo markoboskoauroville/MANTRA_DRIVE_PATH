@@ -1,5 +1,19 @@
 # TAKEOVER: Drive Full Path
 
+**31.10.2026: version 2, click a name to travel** (build/drive-full-path-2.zip; the userscript in ELEVATE_MEDIA_MONITOR is
+the same script, @version 2). Every crumb of Drive's breadcrumb carries its folder id (`data-id`), the items of the "Show
+path" menu too; the open folder's id is in the address. The bar draws each name as an `<a href="/drive/u/N/folders/<id>">`;
+a plain click calls `travel()`: Drive's own visible crumb, else its item in the "Show path" menu, pressed the way Drive takes
+it (mouseover/mousemove at the item's centre, then down, up, click; after the menu's 200 ms fade, opacity > 0.98), else the
+address. Modifier or middle click is left to the browser (new tab). Copy moved to ⧉ at the right. Also fixed: only crumbs
+on screen are read (Drive keeps earlier folders' breadcrumbs in the page, hidden, and v1 could read a stale one), and a
+"Show path" menu that gives nothing is asked again, three times at most. **Proven** in his Firefox (tools/load_in_firefox.py,
+his Drive, account u/1): FINAL → 01 Raw (hidden in the menu) → LongevityStore (hidden) → Back, and FINAL → HIR_98 (visible
+crumb): each went there without a page reload and the bar followed every move; the tab was left on FINAL. **Not done:**
+version 2 is not uploaded to addons.mozilla.org (version 1 is in review); that upload is Marko's (Manage → Upload New
+Version, the zip above). **Not proven by hand:** his own click on the bar.
+
+
 State on 31.10.2026: **version 1 built** (`tools/build.sh` → build/drive-full-path-1.zip, 15 KB). The script was tested
 in Marko's own Firefox on his Drive folder (injected through firefoxctl): the bar read "LongevityStore › 02 For rewiew ›
 HIR_95_FiveSupplementsRanked_KitchenTableMum_UGC_EN › FINAL › V3" and Drive's "Show path" menu closed again.

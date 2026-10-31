@@ -25,4 +25,4 @@
 >
 > You need to update it so I can navigate with it. There is a path inside my Firefox, and I can click on the path names and travel through my tree inside the G drive.
 
-- Every folder name in the bar is a link: a click opens that folder in Drive (the copy moves to its own button). **Status:** building
+- Every folder name in the bar is a link: a click opens that folder in Drive (the copy moves to its own button). **Status:** done, version 2 (tested in his Firefox; not yet uploaded to AMO)

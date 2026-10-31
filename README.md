@@ -2,7 +2,8 @@
 
 **A Firefox extension: the full path of the open Google Drive folder in a thin bar at the top of the window.** Drive
 shortens a deep folder's breadcrumb to "Shared with me › … › FINAL › V3"; this writes the whole of it:
-"LongevityStore › 02 For review › HIR_95 › FINAL › V3". A click on the bar copies it.
+"LongevityStore › 02 For review › HIR_95 › FINAL › V3". **Every folder name is a link (version 2):** a click goes to that
+folder inside Drive (no page reload), ⌘ or middle click opens it in a new tab; ⧉ at the right copies the path.
 
 Marko, 31.10.2026, working in Drive for Elevate Media: *"I need at the top one overlay to see the full path to this
 folder in G Drive ... the G Drive is giving me three dots and I don't see where I am"*, then *"Shared with me part I
@@ -11,6 +12,8 @@ let's build it and make a promo web page for it."*
 
 - `extension/`: manifest.json (MV3, gecko id `drive-full-path@mantra-productions`, version = one whole number),
   content.js, icons. No permissions beyond the content script on drive.google.com; no network, no storage.
+- `tools/load_in_firefox.py`: loads extension/ into his running Firefox as a temporary add-on (BiDi `webExtension.install`),
+  replacing the old copy; Firefox caches a read content script in the tab's process, so this is how an edit gets in.
 - `tools/build.sh`: `build/drive-full-path-<v>.zip`, the file addons.mozilla.org takes.
 - `site/public/`: the promo page, https://mantradrivepath.pages.dev (Cloudflare Pages, deployed by
   `.github/workflows/deploy-pages.yml` on every push to main). Download counter `drivepath`, visits `drivepath`,

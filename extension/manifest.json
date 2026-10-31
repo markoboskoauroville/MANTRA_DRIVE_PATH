@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Drive Full Path",
-  "version": "1",
-  "description": "Shows the full path of the open Google Drive folder in a thin bar at the top, instead of Drive's \"…\". By Mantra Productions.",
+  "version": "2",
+  "description": "Shows the full path of the open Google Drive folder in a thin bar at the top, instead of Drive's \"…\"; click any folder name to go there. By Mantra Productions.",
   "author": "Mantra Productions",
   "homepage_url": "https://mantradrivepath.pages.dev",
   "icons": { "48": "icons/icon-48.png", "96": "icons/icon-96.png", "128": "icons/icon-128.png" },
