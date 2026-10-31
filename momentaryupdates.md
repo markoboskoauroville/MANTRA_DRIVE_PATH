@@ -6,3 +6,9 @@
 
 - A Revolut donation box on mantradrivepath.pages.dev. **Status:** building
 - "Desktop Setup Affiliate Links" (Amazon.de, his affiliate tag): latest Pixel; ADAM Audio speakers (a few models); Kensington SlimBlade; Logitech G815 + others of the series; his BenQ photo monitor; latest MacBook Pro (a few); Stream Deck; Reloop controllers incl. the top one (Mixon 8); Razer desk mat, the biggest; a Rode condenser microphone. **Status:** building
+
+> Please open the partner net page and tell me what to paste there.
+> Also please tell me what is this add-on for Mozilla finished? Can I just submit it? What's going on there?
+> Please, for any product you choose for my affiliate links, if it has Amazon Choice badge, please add it also to my website. So it's clear before user click it knows that it's Amazon Choice.
+
+- Amazon's Choice badge shown on every chosen product that has it (checked on its Amazon page). **Status:** building
