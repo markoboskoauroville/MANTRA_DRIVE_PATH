@@ -26,3 +26,7 @@
 > You need to update it so I can navigate with it. There is a path inside my Firefox, and I can click on the path names and travel through my tree inside the G drive.
 
 - Every folder name in the bar is a link: a click opens that folder in Drive (the copy moves to its own button). **Status:** done, version 2 (tested in his Firefox; not yet uploaded to AMO)
+
+> It works fantastic, it's a nice update. Our update is published on the Firefox database.
+
+- Version 2 tried by Marko and published on addons.mozilla.org (31.10.2026). **Status:** done

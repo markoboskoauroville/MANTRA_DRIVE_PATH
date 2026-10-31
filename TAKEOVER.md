@@ -9,9 +9,10 @@ address. Modifier or middle click is left to the browser (new tab). Copy moved t
 on screen are read (Drive keeps earlier folders' breadcrumbs in the page, hidden, and v1 could read a stale one), and a
 "Show path" menu that gives nothing is asked again, three times at most. **Proven** in his Firefox (tools/load_in_firefox.py,
 his Drive, account u/1): FINAL → 01 Raw (hidden in the menu) → LongevityStore (hidden) → Back, and FINAL → HIR_98 (visible
-crumb): each went there without a page reload and the bar followed every move; the tab was left on FINAL. **Not done:**
-version 2 is not uploaded to addons.mozilla.org (version 1 is in review); that upload is Marko's (Manage → Upload New
-Version, the zip above). **Not proven by hand:** his own click on the bar.
+crumb): each went there without a page reload and the bar followed every move; the tab was left on FINAL. **Published:** Marko
+uploaded version 2 to addons.mozilla.org and tried it himself the same day: *"It works fantastic"* (31.10.2026). The public
+AMO API still answered "Authentication credentials were not provided" for the slug at that moment: check the public page
+and its "Add to Firefox" link at the next session.
 
 
 State on 31.10.2026: **version 1 built** (`tools/build.sh` → build/drive-full-path-1.zip, 15 KB). The script was tested
