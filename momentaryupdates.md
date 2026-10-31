@@ -18,3 +18,11 @@
 - mantradrivepath.pages.dev registered in PartnerNet by Marko (31.10.2026): the affiliate links may go live.
 
 > Just choose any BenQ, it's okay. Whatever is Amazon choice for photographers and videos. Doesn't matter which one I have.
+
+## 31.10.2026: click the path to travel
+
+> please take a look at my repository Please find the application. Actually, it's not an application, it's called Driveful Path, and it's a plugin for DaVinci Resolve, an extension.
+>
+> You need to update it so I can navigate with it. There is a path inside my Firefox, and I can click on the path names and travel through my tree inside the G drive.
+
+- Every folder name in the bar is a link: a click opens that folder in Drive (the copy moves to its own button). **Status:** building
