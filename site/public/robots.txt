@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mantradrivepath.pages.dev/sitemap.xml

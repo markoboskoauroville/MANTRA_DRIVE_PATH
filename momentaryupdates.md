@@ -34,3 +34,11 @@
 > Please fill in the Release Notes. They are open. Add them on Developer Hub.
 
 - Version 2's notes written into Developer Hub → Manage Version 2 → Version Notes (pasted through Macro Recorder; AMO refuses remote control). Marko presses Save Changes. **Status:** done (18:08)
+
+## 1.11.2026: the page order (banner, introduction, lifestyle, technical, donation)
+
+> "the page is perfect. Let's do it all pages" (Marko, 1.11.2026, about mantramiditools.pages.dev)
+
+1. Every public app page in the order of MANTRA_MANIFEST modules/app-page-order.md: the banner (the app at work, name and one line on it), a short introduction with the download button and the version line, the lifestyle picture, the technical part, the donation bowl.
+
+**Status:** done 1.11.2026 (site/public/index.html): banner img/hero.jpg with the icon and the name on it, the introduction with Add to Firefox and the version line, the lifestyle picture img/lifestyle.jpg, the technical part, and the donation bowl added (the block and its two pictures from MIDI Tools), with SEO (kits/seo, robots.txt, sitemap.xml). Published with wrangler from the Mac: the deploy workflow skips because the repository's Cloudflare secrets are not set.
