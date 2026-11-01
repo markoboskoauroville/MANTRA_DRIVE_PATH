@@ -42,3 +42,11 @@
 1. Every public app page in the order of MANTRA_MANIFEST modules/app-page-order.md: the banner (the app at work, name and one line on it), a short introduction with the download button and the version line, the lifestyle picture, the technical part, the donation bowl.
 
 **Status:** done 1.11.2026 (site/public/index.html): banner img/hero.jpg with the icon and the name on it, the introduction with Add to Firefox and the version line, the lifestyle picture img/lifestyle.jpg, the technical part, and the donation bowl added (the block and its two pictures from MIDI Tools), with SEO (kits/seo, robots.txt, sitemap.xml). Published with wrangler from the Mac: the deploy workflow skips because the repository's Cloudflare secrets are not set.
+
+## 1.11.2026: My studio setup, a link above the bowl
+
+> "Just above the Tibetan bowl for donation, you can just make one link, and then it will open the page with all lifestyle images and images of these products which I'm using in my development studio ... For this link, you can say "My studio setup." ... It is opening a new page, which is going to call studio setup mantra.pages.dev" (Marko, 1.11.2026)
+
+1. One centred link "My studio setup" right above the donation bowl, opening https://studiosetupmantra.pages.dev in a new tab, with the line "The gear these apps are made with · affiliate links on Amazon.de".
+
+**Status:** committed 1.11.2026, NOT pushed or deployed: waiting until Marko registers studiosetupmantra.pages.dev in Amazon PartnerNet and the studio page is live.
