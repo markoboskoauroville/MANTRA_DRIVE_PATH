@@ -15,7 +15,7 @@ let's build it and make a promo web page for it."*
 - `tools/load_in_firefox.py`: loads extension/ into his running Firefox as a temporary add-on (BiDi `webExtension.install`),
   replacing the old copy; Firefox caches a read content script in the tab's process, so this is how an edit gets in.
 - `tools/build.sh`: `build/drive-full-path-<v>.zip`, the file addons.mozilla.org takes.
-- `site/public/`: the promo page, https://mantradrivepath.pages.dev (Cloudflare Pages, deployed by
+- `site/public/`: the promo page, https://drivepath.markobosko.org (Cloudflare Pages, deployed by
   `.github/workflows/deploy-pages.yml` on every push to main). Download counter `drivepath`, visits `drivepath`,
   Speechify keys.
 - The same script as a userscript: ELEVATE_MEDIA_MONITOR `tools/drive-path.user.js`.
